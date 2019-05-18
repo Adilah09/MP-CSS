@@ -1,0 +1,67 @@
+body {
+    color: rgba(5, 129, 151, 0.877);
+    font-family: 'Roboto', sans-serif;
+    margin : 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+img {
+    border-radius: 10%;
+    box-shadow: 2px 4px grey;
+}
+
+#mainSection {
+    height: 100vh;
+    background-color: rgba(127, 224, 176, 0.856);
+    text-align: center;
+    padding-top: 15%;
+}
+
+#box1{
+    background-color:white;
+     padding:1vh;
+     display: inline-block;
+     box-shadow: 2px 4px grey;
+}
+
+#infoSection{
+    background-color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.box2{
+    background-color:antiquewhite;
+    padding:1vh;
+    display: inline-block;
+    box-shadow: 2px 4px grey;
+}
+
+#orderList{
+    list-style-position: inside; 
+}
+
+#footer{
+    background-color:black;
+    text-align: center;
+    padding: 15px;
+}
+
+#footer ul li img{
+    border-radius: 20%;
+    box-shadow: 2px 3px 1px grey;
+}
+
+#inline-list{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+#inline-list li{
+    display: inline-block;
+    padding: 5px;
+}
